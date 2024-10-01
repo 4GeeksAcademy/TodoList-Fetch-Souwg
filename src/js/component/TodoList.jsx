@@ -80,7 +80,7 @@ const List = () => {
     return (
         
         <div className="container w-50 justify-content-center">
-            <div className="title text-center" style={{ fontSize: '90px', fontFamily: 'cursive', color: 'deeppink', }}>To-do</div>
+            <div className="title text-center" style={{ fontSize: '90px', fontFamily: 'Sans-serif', color: 'lightpink', }}>To-do</div>
             <ul className="list-group border-none">
                 <li className="list-group-item">
                     <input
@@ -107,3 +107,5 @@ const List = () => {
 };
 
 export default List;
+
+
